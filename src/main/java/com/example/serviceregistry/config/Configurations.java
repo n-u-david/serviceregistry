@@ -4,7 +4,7 @@ import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
-@ConfigurationProperties(prefix="spring.datasource")
+@ConfigurationProperties(prefix="spring.destination")
 @Configuration
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,7 +13,5 @@ import org.springframework.context.annotation.Configuration;
 public class Configurations {
     private String service001;
     private String service002;
-    private String service003;
-    private String service004;
-
+    private String cam;
 }
